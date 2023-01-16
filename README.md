@@ -33,16 +33,16 @@ You will need these dependencies or equivalent:
 sudo apt-get install git build-essential libboost-all-dev libssl-dev qt-sdk libdb-dev libdb++-dev libminiupnpc-dev libqrencode-dev 
 ```
 
-Get the source with this command:
+#### Get the source with this command:
 ```
 git clone https://github.com/Pamenarti/lotuschain.git
 ```
 
 ## This project is a fully armed and operational bitcoin-core ported to the lotuscoin network.  
 
-Dedicated to Sipa, Nullc, and Coblee.  Props and Kudos.  
+#### Dedicated to Sipa, Nullc, and Coblee.  Props and Kudos.  
 
-Three tasks have made this port complete:
+#### Three tasks have made this port complete:
 
 1) Skein2 hash function for Proof Of Work inserted
 2) prime256r1 for ECDSA signatures (including backport to OpenSSL and removal of libsecp256k1)
@@ -57,7 +57,7 @@ Other clients including Lotuscoin-minimal and Fo-Realz-Lotuscoin are also availa
 
 ## Mining (lotuscutting)
 
-To start lotuscutting with lotuscoind, simply launch it like this: 
+#### To start lotuscutting with lotuscoind, simply launch it like this: 
 ```
 ./lotuscoind setgenerate true
 ```
