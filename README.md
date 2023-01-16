@@ -14,7 +14,6 @@ The money supply is logarithmic.
 The unit is log.
 
 ## Technical Details:
-```
 - RPC Port = 9338
 - P2P Ports = 8338 (testnet 18338)
 - In Wallet mining/logging = Console, "setgenerate true"
