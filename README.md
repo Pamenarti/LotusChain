@@ -93,7 +93,9 @@ Güncelleme Notları: 1. ve 2. testnet sonucunda tespit edilen sorunlar, hatalar
 
 
 - 3. testnet için Node-R özelliği çekirdek sistemine eklenmek üzere plana alınacak 3. testnet de aktif edilmek üzere kodlanacaktır. fakat bir hayli kod yazılacağından. Planda olmayan 4. testnet yol haritasına eklenebilme olasılığı çok yüksektir. Bu yüzden 3 testnet sırasında Node-R kodlaması süreci daha önce de başlayabilir 3. testnet sonrasında da başlayacağından 4. testnet aktif edebiliriz.
+
  Node-R teşviki aktif edilmesi gereken bir Protokol olarak plana dahil edildiğinden Mainnet sürecinden önce 4. ve 5. testnet'ler yapılabilir. Aksi halde sistem sorunlu çalışacak ve HARDFORK yapılması olasılığı gün yüzüne çıkabilir. Hardfork yapılmaması için testnet'lerin uzun tutulması ve ince eleyerek sık dokumamız gereken bir KODlama süreci yaşamamız gerekiyor bunun için sabırla ve sukünet ile beklemeniz gerekmektedir.
+
  Malumunuz biliyorsunuz kodlama, testler, geliştirmeler, hata ayıklama, hata giderme, sorun bulma, kod/sistem/mekanizma analizi, Yeni gelişmeler ve gelişmelerin gibi bir çok iş ve işlerin hepsini tek başıma ve tek kişi olarak yaptığımdan bir hayli zaman, emek, çaba ve zorlayan bir süreç oluyor bu yüzden Sabrınız için Teşekkür ediyorum. 
 
 ## 3. Testnet gerekli kontroller yapıldı ve güncel kod verisi düzenlendi.
@@ -103,6 +105,29 @@ Güncelleme Notları: 1. ve 2. testnet sonucunda tespit edilen sorunlar, hatalar
  Ödüllerin olgunlaşmasının süresi kısaltılarak daha hızlı Olgunlaşan ödüller mekaniğe eklendi. Zincir kapatılıp açıldıktan sonra hızı ve Fair Share (adil pay) mekaniği, ödül dağılımın da ve olgunlaşan ödüller kısmında optimize edildikten sonra, Node-Mine yapan arkadaşlar bunu zaten fark edeceklerdir. 
 
 şimdilik güncel düzeltmeler ve hata giderimi detayları bu kadar.
+
+## #PLP #Maineable Coin olan #LTS'nin 3. Testnet aktif edildi. Local Node'larınız ile bağlanıp kazım yapabilirsiniz. 
+
+Bir önceki 2. testnet de bulunan ve not alınan bütün sorunlar giderildi test edildi. Fakat aktif olarak, local 2 node yerine topluluk node'ları ve farklı Core,Proccess'lar ile, test edilmediğinden yatırımcıların ve Miner'ların tespit edilen ve bulunan sorunların giderilmesi adına. Farklı çeşitde donanım teçhizatlarımız kısıtlı olduğundan, hatalar/sorunlar/sıkıntılar ile ilgili geri bildirimleri göz önüne alarak, 3. testnet'i sağlıklı bir şekilde analiz ve gözlemler ile tamamlayacağımızı umuyorum. Malum tek başıma geliştirdiğimden, yeni 3. Testnet'imiz de "Woodcoin" yaratıcısı ve geliştiricisi aynı zaman da, eski LTC (litecoin) geliştiricilerinden" olan arkadaşım "funkenstein" bana işleri hızlandırmak adına, yardım edeceğini ve ekibe destek geliştirici olarak katkı sağlayacağını söylemek isterim. hem kodlama süresin de hem geliştirme aşamasında bir çok katkısı dokunacağını düşündüğümden, yardımlarının baya etkili olacağını söyleyebilirim. Aynı zaman da ben de "Woodcoin" Çekirdeğinin gelişiminde aynı şekilde destek geliştirici olarak yardımcı olacağımı söylerek anlaşma sağladık. Ekibimiz umarım uzman arkadaşlarla zamanla büyüyecektir. Bu sayede daha hızlı gelişim gösterebileceğiz.
+
+Hali hazırda başka bir haber vermek isterim, Node-R protokolümüzü çok beğenen "funkenstein", Protokol geliştirmemiz bittikten sonra aynı şekilde kendi sistemleri olan "Woodcoin" de Node-R protokolümüzü ilerleyen süreçlerde aktif ederek kullanmayı düşünüyorlar. Node-R protokolü sağlıklı bir şekilde hayata geçirildikten sonra ki süreçte başka bir projenin bu protokolü kullanacağını bilmenizi isterim. (ayrıca ki bu anlaşma beni baya bişr mutlu etti açıkcası.). Protokolümüzün teşvik oluşturma açısından etkili, işlevsel bir protokol olacağını düşünmüştüm ve kendilerinin onaylamaları bu düşüncemi doğrular nitelikte oldu.
+3. testnet de yapılacak işlemler kısaca. 
+
+- Pool sistemi test edilerek aktif ve stabil hale getirilecek. (Pool = 3rd havuz sistemi/yazılımı)
+- Pool sistemi Oto-ödeme sistemi test edilecek.
+- Pool sistemi adil ödeme dağıtımı kontrol edilerek analiz edilecek.
+- GPU-Mine ve Node-Mine mekaniği kazançları analiz edilerek oran hesaplamaları gözlemlenerek not alınacak.
+- Node-R mekaniği kodlaması yapılarak sisteme entegre edilecek.
+- Node-R add/remove/ban eklenecek.
+- Node-R mekaniği ve Mine oranları, Adil dağıtım, Adil kazım miktarları gözlemlenerek not alınacak.
+- Düzeltilen Peerinfo hataları kontrol edilerek aktif Node'lar da ki sorunların giderildiği gözlemlenecek yeni sorunlar not alınacak.
+- Mining info parametresi sorunları giderildi analiz ve test edilecektir.
+- Hali hazır da bulunan Blokzincir Mine Sistematik adil ödeme sorunları giderildi incelenecek.
+- Mine sırasında OPreturn hataları tespit edilmişti test edilerek kontrol sağlanacak..
+ ve dahası..
+
+3. testnet ile başarılı bir şekilde geliştirmeye ve gelişime devam edeceğiz.
+
 
 ## contact :
 ~Paro, (c) 2019 (discord id : Paro#7842)
