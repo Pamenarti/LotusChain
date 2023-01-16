@@ -93,7 +93,9 @@ Güncelleme Notları: 1. ve 2. testnet sonucunda tespit edilen sorunlar, hatalar
 
 
 - 3. testnet için Node-R özelliği çekirdek sistemine eklenmek üzere plana alınacak 3. testnet de aktif edilmek üzere kodlanacaktır. fakat bir hayli kod yazılacağından. Planda olmayan 4. testnet yol haritasına eklenebilme olasılığı çok yüksektir. Bu yüzden 3 testnet sırasında Node-R kodlaması süreci daha önce de başlayabilir 3. testnet sonrasında da başlayacağından 4. testnet aktif edebiliriz.
+
  Node-R teşviki aktif edilmesi gereken bir Protokol olarak plana dahil edildiğinden Mainnet sürecinden önce 4. ve 5. testnet'ler yapılabilir. Aksi halde sistem sorunlu çalışacak ve HARDFORK yapılması olasılığı gün yüzüne çıkabilir. Hardfork yapılmaması için testnet'lerin uzun tutulması ve ince eleyerek sık dokumamız gereken bir KODlama süreci yaşamamız gerekiyor bunun için sabırla ve sukünet ile beklemeniz gerekmektedir.
+ 
  Malumunuz biliyorsunuz kodlama, testler, geliştirmeler, hata ayıklama, hata giderme, sorun bulma, kod/sistem/mekanizma analizi, Yeni gelişmeler ve gelişmelerin gibi bir çok iş ve işlerin hepsini tek başıma ve tek kişi olarak yaptığımdan bir hayli zaman, emek, çaba ve zorlayan bir süreç oluyor bu yüzden Sabrınız için Teşekkür ediyorum. 
 
 ## 3. Testnet gerekli kontroller yapıldı ve güncel kod verisi düzenlendi.
