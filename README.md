@@ -64,8 +64,12 @@ Other clients including Lotuscoin-minimal and Fo-Realz-Lotuscoin are also availa
 For the graphical client, simply go into the debug window (under Help) and type:
 
 ```setgenerate true```
+---
 
-Güncelleme Notları: 1. ve 2. testnet sonucunda tespit edilen sorunlar, hatalar, buglar ve iyileştirme için yapılan geliştirmelerin listesi.
+
+
+
+# Güncelleme Notları: 1. ve 2. testnet sonucunda tespit edilen sorunlar, hatalar, buglar ve iyileştirme için yapılan geliştirmelerin listesi.
 
 - CPU Miner ve GPU miner Diff paylaşım mekanizması düzeltildi.
 - CPU anlık TXID blok çıkarımında ki anlık kasma hataları giderildi.
