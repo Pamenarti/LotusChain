@@ -64,7 +64,6 @@ Other clients including Lotuscoin-minimal and Fo-Realz-Lotuscoin are also availa
 For the graphical client, simply go into the debug window (under Help) and type:
 
 ```setgenerate true```
----
 
 
 
