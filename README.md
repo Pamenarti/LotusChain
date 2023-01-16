@@ -65,6 +65,40 @@ For the graphical client, simply go into the debug window (under Help) and type:
 
 ```setgenerate true```
 
+## Güncelleme Notları: 1. ve 2. testnet sonucunda tespit edilen sorunlar, hatalar, buglar ve iyileştirme için yapılan geliştirmelerin listesi.
+
+- CPU Miner ve GPU miner Diff paylaşım mekanizması düzeltildi.
+- CPU anlık TXID blok çıkarımında ki anlık kasma hataları giderildi.
+- CPU blok çıkarımında oluşturulan maks Voltaj/POWER %20 oranında idi giderildi.
+- GPU diff hatalı Voltaj/POWER harcama giderildi.
+- TXID blokları çift işlem orphan çıkarılmama sorunu giderildi.
+- %51 invout hesaplama hataları giderildi
+- Hardfork ve halving geçişleri test edildi ve görünen sorunlar KOD tabanına işlenerek iyileştirildi.
+- Blok başı çıkarılan ödüllerinadil dağıtım problemleri sorunu iyileştirildi.
+- Zincir blokları anlık blok çıkarım sırasında oluşan kasma sorunları giderildi.
+- Vout miner pay tree problemleri test edildi görünen hatalar giderildi
+- CPU+GPU Miner adil dağıtım sorunları zincir temelinde iyileştirildi.
+- Node ve QT-Wallet bağlantı (connect) gecikme sorunları iyileştirildi.
+- lotuscoin-cli + lotuscoin-txt-cli zincir çekirdek dosyaları yaratılarak Master-Node kullanımı için 3. testnet e aktif edildi, sorunları giderildi
+- lotuscoin-cli peer-to-info parametresi eklendi.
+- lotuscoin-cli getinfo parametresi genişletilerek "Sync : True/False" çıktısı Json/parse fonksiyonu eklendi olarak.
+- Peer-disconnect Kopma problemleri sorunları giderildi ve iyileştirildi.
+- Node2Node bağlantı More-Connect sorunları ve banlanma veya banlama sorunları giderildi.
+- White Node/IP özelliği eklendi ve sorunları giderildi (Node-R sistemi için yeni kodladığım ve gerekli bir özellikdi mecburen eklemek zorunda kaldığımız bir mini kod-eklentisidir.)
+- Peer Json parse döküm hataları/sorunları giderildi.
+- Peer Json döküm tıkanmaları ve BUG da kalma sorunları giderilerek, hızı iyileştirildi.
+- UTXO paylaşım ve parçalanma hızı yükseltildi. ( default normalize de 0.1 saniye de parçalanma yaşanmaktaydı. Node-R sistemi dahil olduktan sonra json data veriminde yavaşlama yaşanmıştı.) 
+- UTXO pay back/bildirimi (gönderimden kalan küsüratın cüzdana geri dönme hızı ve hesaplamalarında ki hız arttırıldı.) 
+- Node-R protokolü + aktivasyon ve yeni özelliklerin sisteme dahil edilerek peer/info ön bilgileri yazıldı ve giriş sorunları halledildi.
+
+
+3. testnet için Node-R özelliği çekirdek sistemine eklenmek üzere plana alınacak 3. testnet de aktif edilmek üzere kodlanacaktır. fakat bir hayli kod yazılacağından. Planda olmayan 4. testnet yol haritasına eklenebilme olasılığı çok yüksektir. Bu yüzden 3 testnet sırasında Node-R kodlaması süreci daha önce de başlayabilir 3. testnet sonrasında da başlayacağından 4. testnet aktif edebiliriz.
+
+Node-R teşviki aktif edilmesi gereken bir Protokol olarak plana dahil edildiğinden Mainnet sürecinden önce 4. ve 5. testnet'ler yapılabilir. Aksi halde sistem sorunlu çalışacak ve HARDFORK yapılması olasılığı gün yüzüne çıkabilir. Hardfork yapılmaması için testnet'lerin uzun tutulması ve ince eleyerek sık dokumamız gereken bir KODlama süreci yaşamamız gerekiyor bunun için sabırla ve sukünet ile beklemeniz gerekmektedir.
+
+Malumunuz biliyorsunuz kodlama, testler, geliştirmeler, hata ayıklama, hata giderme, sorun bulma, kod/sistem/mekanizma analizi, Yeni gelişmeler ve gelişmelerin gibi bir çok iş ve işlerin hepsini tek başıma ve tek kişi olarak yaptığımdan bir hayli zaman, emek, çaba ve zorlayan bir süreç oluyor bu yüzden Sabrınız için Teşekkür ediyorum. 
+
+
 contact :
 ~Paro, (c) 2019 (discord id : Paro#7842)
 
