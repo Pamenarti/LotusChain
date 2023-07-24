@@ -134,7 +134,7 @@ Hali hazırda başka bir haber vermek isterim, Node-R protokolümüzü çok beğ
 
 
 ## contact :
-~Paro, (c) 2019 (discord id : Paro#7842)
+~Paro, (c) 2019 (discord id : paro0 )
 
 
 ## License
