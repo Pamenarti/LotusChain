@@ -21,7 +21,7 @@ The unit is log.
 - 30 Confirms for spendable-coins
 - Block reward = Harmonic Series
 - 1000000/nHeight logs  (after first 100 blocks which form unspendable forest of 5187377 logs) 
-- Money Supply = 1000000*(log(nHeight) + gamma)     gamma=Euler-Mascheroni constant 
+- Money Supply = 84000000*(log(nHeight) + gamma)     gamma=Euler-Mascheroni constant 
 - ECDSA curve: X9_62_prime256v1 
 - Algo = Pure Skein2 (double skein) Bruce Schneier is a lumberjack and NSA didn't choose this algo.
 
